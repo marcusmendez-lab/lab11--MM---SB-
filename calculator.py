@@ -1,12 +1,12 @@
+#https://github.com/marcusmendez-lab/lab11--MM---SB-
+# Partner 1: Marcus Mendez
+# Partner 2: Stefan Behrmann
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-#https://github.com/marcusmendez-lab/lab11--MM---SB-
-# Partner 1: Marcus Mendez
-# Partner 2: Stefan Behrmann
 import math
 # First example
 def add(a, b):
