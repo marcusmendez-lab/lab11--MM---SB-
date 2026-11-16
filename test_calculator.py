@@ -1,3 +1,6 @@
+#https://github.com/marcusmendez-lab/lab11--MM---SB-
+# Partner 1: Marcus Mendez
+# Partner 2: Stefan Behrmann
 import unittest
 from calculator import *
 
