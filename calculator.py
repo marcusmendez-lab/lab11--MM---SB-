@@ -15,6 +15,7 @@ def div(a, b):
         raise ZeroDivisionError
     return b / a
 def exp(a, b):
+    return a ** b
 
 def square_root(a):
     try:
