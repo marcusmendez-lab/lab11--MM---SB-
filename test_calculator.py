@@ -3,7 +3,6 @@
 # Partner 2: Stefan Behrmann
 import unittest
 from calculator import *
-
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self): # 3 assertions
@@ -16,8 +15,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(-1, -2), 1)
         self.assertEqual(subtract(-1, 2), -3)
     # ##########################
-
-    ######## Partner 1
+######## Partner 1
     def test_multiply(self):
         self.assertEqual(mul(3, 4), 12)
         self.assertEqual(mul(5, 5), 25)
@@ -27,9 +25,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(2, 10), 5)
         self.assertEqual(div(5, 20), 4)
         self.assertEqual(div(-2, 10), -5)
-    # ##########################
+# ##########################
 
-    ######## Partner 2
+######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
             div(0, 5)
@@ -42,9 +40,9 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
             logarithm(1, 5)
-    # ##########################
-    
-    ######## Partner 1
+# ##########################
+
+######## Partner 1
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
             logarithm(2, -5)
@@ -59,7 +57,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(square_root(16), 4)
         with self.assertRaises(ValueError):
             square_root(-4)
-    ##########################
+##########################
 
 # Do not touch this
 if __name__ == "__main__":
