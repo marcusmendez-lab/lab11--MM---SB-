@@ -21,6 +21,7 @@ def log(a, b):
         raise ValueError
     return math.log(b, a)
 def exp(a, b):
+    return a ** b
 
 def square_root(a):
     try:
