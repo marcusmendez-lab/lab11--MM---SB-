@@ -1,12 +1,12 @@
-#https://github.com/marcusmendez-lab/lab11--MM---SB-
-# Partner 1: Marcus Mendez
-# Partner 2: Stefan Behrmann
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
+#https://github.com/marcusmendez-lab/lab11--MM---SB-
+# Partner 1: Marcus Mendez
+# Partner 2: Stefan Behrmann
 import math
 # First example
 def add(a, b):
@@ -32,6 +32,7 @@ def hypotenuse(a, b):
         return math.hypot(a, b)
     except ValueError:
         raise ValueError("Invalid hypotenuse input")
+
 
 def subtract(a, b):
     return a - b
