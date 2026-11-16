@@ -35,9 +35,9 @@ class TestCalculator(unittest.TestCase):
             div(0, 5)
 
     def test_logarithm(self): # 3 assertions
-        self.assertEqual(log(2, 8), 3)
-        self.assertEqual(log(10, 100), 2)
-        self.assertEqual(log(5, 25), 2)
+        self.assertEqual(logarithm(2, 8), 3)
+        self.assertEqual(logarithm(10, 100), 2)
+        self.assertEqual(logarithm(5, 25), 2)
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
