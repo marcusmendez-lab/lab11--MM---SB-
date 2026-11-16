@@ -22,6 +22,18 @@ def log(a, b):
     return math.log(b, a)
 def exp(a, b):
 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        raise ValueError("Cannot calculate square root of a negative number")
+
+
+def hypotenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except ValueError:
+        raise ValueError("Invalid hypotenuse input")
 
 def add(a, b):
     return a + b
