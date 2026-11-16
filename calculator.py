@@ -33,9 +33,6 @@ def hypotenuse(a, b):
     except ValueError:
         raise ValueError("Invalid hypotenuse input")
 
-def add(a, b):
-    return a + b
-
 
 def subtract(a, b):
     return a - b
